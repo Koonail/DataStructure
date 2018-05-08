@@ -1,5 +1,7 @@
 package com.koonail.structures.Linked;
 
+import java.util.ArrayList;
+
 public class LinkedTest {
     public static void main(String[] args) {
         MyLinked myLinked = new MyLinked();
@@ -36,7 +38,8 @@ public class LinkedTest {
         myLinked.uniq();
         // 倒序打印当前链表
         System.out.print("当前链表的倒序输出为：");
-        myLinked.reversePrint(myLinked.getHead());
+        System.out.println(myLinked.reversePrint(myLinked.getHead(),new ArrayList<Integer>()));
+//        myLinked.reversePrint(myLinked.getHead());
         System.out.println();
         // 打印当前链表
         myLinked.printLinked();

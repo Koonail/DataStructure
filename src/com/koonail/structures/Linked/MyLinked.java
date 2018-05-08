@@ -245,11 +245,14 @@ public class MyLinked {
     /**
      * 递归倒序输出链表
      */
-    public void reversePrint(Node head){
+    public List<Integer> reversePrint(Node head,List<Integer> rs){
         if (head != null){
-            reversePrint(head.next);
-            System.out.print(head.data + " ");
+            reversePrint(head.next,rs);
+            //System.out.print(head.data + " ");
+            rs.add(head.data);
+            return rs;
         }
+        return rs;
     }
 
     /**
