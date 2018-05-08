@@ -1,4 +1,4 @@
-package com.koonail.structures.Linked;
+package com.koonail.structures.linked;
 
 import java.util.List;
 
