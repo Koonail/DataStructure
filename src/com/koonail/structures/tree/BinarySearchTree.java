@@ -1,4 +1,4 @@
-package com.kooanil.structures.tree;
+package com.koonail.structures.tree;
 
 /**
  * 二叉查找树
